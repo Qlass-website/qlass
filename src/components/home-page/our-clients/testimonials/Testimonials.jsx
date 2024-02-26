@@ -113,27 +113,27 @@ export default function Testimonials() {
     >
       <CarouselContent>
         {testimonialsData.map((testimonial) => (
-          <CarouselItem key={testimonial.id} className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-1">
-            <Card>
-              <CardContent className="p-6 flex space-x-14 items-center justify-between">
-                <div className="flex space-x-4 items-center">
-                  <Avatar>
-                    <AvatarImage src={testimonial.image} />
-                    <AvatarFallback>{testimonial.name}</AvatarFallback>
-                  </Avatar>
-                </div>
-                <div className="flex flex-col space-y-3 items-start">
-                  <div className="text-3xl space-x-1 font-semibold">
-                    {getStarIcons(testimonial.rating)}
+          <CarouselItem key={testimonial.id} className="md:w-1/2 lg:w-1/3">
+            <div className="p-1">
+              <Card>
+                <CardContent className="p-6 flex flex-col md:flex-row md:space-x-14 items-center md:justify-between">
+                  <div className="flex space-x-4 items-center md:mb-0">
+                    <Avatar>
+                      <AvatarImage src={testimonial.image} />
+                      <AvatarFallback>{testimonial.name}</AvatarFallback>
+                    </Avatar>
                   </div>
-                  <p className="text-gray-700">{testimonial.content}</p>
-                  <strong>{testimonial.name}</strong>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </CarouselItem>
+                  <div className="flex flex-col space-y-3 items-start">
+                    <div className="text-3xl space-x-1 font-semibold">
+                      {getStarIcons(testimonial.rating)}
+                    </div>
+                    <p className="text-gray-700">{testimonial.content}</p>
+                    <strong>{testimonial.name}</strong>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </CarouselItem>
         ))}
       </CarouselContent>
       <CarouselPrevious />
