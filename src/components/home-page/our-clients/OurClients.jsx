@@ -22,8 +22,10 @@ export default function OurClients() {
             </div>
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
-              <Testimonials />
+            <div className="relative min-h-[340px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+             <div className="mt-8 flex justify-center">
+             <Testimonials />
+             </div>
             </div>
           </div>
         </div>
