@@ -21,8 +21,8 @@ export default function WhatWeOffer() {
             </div>
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative min-h-[330px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
-              <div className="mt-16">
+            <div className="relative min-h-[520px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+              <div className="mt-10">
                 <WhatWeOfferCards />
               </div>
             </div>

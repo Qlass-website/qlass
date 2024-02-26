@@ -350,7 +350,7 @@ export default function Footer() {
             </p>
 
             <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-              &copy; 2024 Qlass Made with ❤️ by mattr
+              &copy; 2024 Qlass Made with ❤️ by Mattr
             </p>
           </div>
         </div>

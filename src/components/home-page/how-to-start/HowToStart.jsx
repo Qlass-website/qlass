@@ -19,7 +19,7 @@ export default function HowToStart() {
             </div>
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative flex min-h-[397px] flex-grow items-center justify-between overflow-hidden shadow-sm max-md:mt-10 max-md:max-w-full">
+            <div className="relative flex min-h-[357px] flex-grow items-center mt-8 justify-between overflow-hidden shadow-sm max-md:mt-10 max-md:max-w-full">
               <div className="w-1/4 bg-transparent text-white">
                 <div
                   className={`flex cursor-pointer items-center space-x-4 p-4 ${selectedTab === "tab1" ? "text-white underline underline-offset-8" : ""}`}
@@ -44,19 +44,19 @@ export default function HowToStart() {
               {/* Content Area */}
               <div className="flex-grow p-4 text-white">
                 {selectedTab === "tab1" && (
-                  <div>
-                    <h1>Content for Tab 1</h1>
+                  <div className="text-center">
+                    <img loading="lazy" className="ml-32" src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/video_banner_03.png" alt=""  />
                   </div>
                 )}
                 {selectedTab === "tab2" && (
-                  <div>
-                    <p>Content for Tab 2</p>
+                  <div className="text-center">
+                    <img loading="lazy" className="ml-32" src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/video_banner_03.png" alt=""  />
                   </div>
                 )}
                 {selectedTab === "tab3" && (
-                  <div>
-                    <p>Content for Tab 3</p>
-                  </div>
+                  <div className="text-center">
+                  <img loading="lazy" className="ml-32" src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/video_banner_03.png" alt=""  />
+                </div>
                 )}
               </div>
             </div>
