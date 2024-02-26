@@ -1,9 +1,9 @@
-import {Routes, Route} from 'react-router-dom'
-import HomePage from './pages/home-page'
-import Layout from './Layout'
-import AboutPage from './pages/about-page'
-import CoursesPage from './pages/courses-page'
-import ContactPage from './pages/contact-page'
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/home-page";
+import Layout from "./Layout";
+import AboutPage from "./pages/about-page";
+import CoursesPage from "./pages/courses-page";
+import ContactPage from "./pages/contact-page";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
       </Route>
     </Routes>
-  )
+  );
 }
 
-export default App
+export default App;
