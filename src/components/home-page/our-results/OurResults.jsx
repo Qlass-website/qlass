@@ -11,9 +11,9 @@ export default function OurResults() {
                     </div>
                 </div>
                 <div className="w-full max-md:w-full">
-                <div className="overflow-hidden relative flex-grow justify-center items-center min-h-[397px] max-md:mt-10 max-md:max-w-full">
+                    <div className="overflow-hidden relative flex-grow justify-center items-center min-h-[397px] max-md:mt-10 max-md:max-w-full">
 
-                </div>
+                    </div>
                 </div>
             </div>
         </div>
