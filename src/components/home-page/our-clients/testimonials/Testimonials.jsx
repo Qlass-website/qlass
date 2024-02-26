@@ -117,7 +117,7 @@ export default function Testimonials() {
     >
       <CarouselContent>
         {testimonialsData.map((testimonial) => (
-          <CarouselItem key={testimonial.id} className="md:w-1/2 lg:w-1/3">
+          <CarouselItem key={testimonial.id} className="md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
               <Card>
                 <CardContent className="flex flex-col items-center p-6 md:flex-row md:justify-between md:space-x-14">
