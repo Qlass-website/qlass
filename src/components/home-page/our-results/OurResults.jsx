@@ -1,4 +1,5 @@
 import React from "react";
+import ResultsDisplayCards from "./ResultsDisplayCards/ResultsDisplayCards";
 
 export default function OurResults() {
   return (
@@ -13,7 +14,11 @@ export default function OurResults() {
             </div>
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full"></div>
+            <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+              <div className="mt-10">
+                <ResultsDisplayCards />
+              </div>
+            </div>
           </div>
         </div>
       </div>

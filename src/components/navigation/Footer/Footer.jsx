@@ -22,7 +22,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-indigo-800 transition hover:indigo-800"
+                  class="hover:indigo-800 text-indigo-800 transition"
                 >
                   <span class="sr-only">Facebook</span>
                   <svg
@@ -45,7 +45,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-indigo-800 transition hover:indigo-800"
+                  class="hover:indigo-800 text-indigo-800 transition"
                 >
                   <span class="sr-only">Instagram</span>
                   <svg
@@ -68,7 +68,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-indigo-800 transition hover:indigo-800"
+                  class="hover:indigo-800 text-indigo-800 transition"
                 >
                   <span class="sr-only">Twitter</span>
                   <svg
@@ -87,7 +87,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-indigo-800 transition hover:indigo-800"
+                  class="hover:indigo-800 text-indigo-800 transition"
                 >
                   <span class="sr-only">GitHub</span>
                   <svg
@@ -110,7 +110,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-indigo-800 transition hover:indigo-800"
+                  class="hover:indigo-800 text-indigo-800 transition"
                 >
                   <span class="sr-only">Dribbble</span>
                   <svg
