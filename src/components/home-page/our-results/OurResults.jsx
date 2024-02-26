@@ -1,5 +1,6 @@
 import React from "react";
 import ResultsDisplayCards from "./ResultsDisplayCards/ResultsDisplayCards";
+import ResultsCards from "./ResultsDisplayCards/ResultsCard";
 
 export default function OurResults() {
   return (
@@ -17,7 +18,7 @@ export default function OurResults() {
             <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
               <div className="mt-10 space-y-5">
                 <ResultsDisplayCards />
-                <ResultsDisplayCards />
+                <ResultsCards />
                 <ResultsDisplayCards />
               </div>
             </div>
