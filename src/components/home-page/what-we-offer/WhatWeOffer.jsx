@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import React from "react";
+import WhatWeOfferCards from "./WhatWeOfferCards/WhatWeOfferCards";
 
 export default function WhatWeOffer() {
   return (
@@ -20,7 +21,11 @@ export default function WhatWeOffer() {
             </div>
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full"></div>
+            <div className="relative min-h-[330px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+              <div className="mt-16">
+                <WhatWeOfferCards />
+              </div>
+            </div>
           </div>
         </div>
       </div>
