@@ -17,8 +17,8 @@ export default function ResultsCards() {
         opts={{
           align: "center",
           slidesToScroll: 1, // Number of slides to scroll per swipe
-    speed: 500, // Transition speed in milliseconds
-    dragFree: true, // Allow free dragging without aligning to slides
+          speed: 500, // Transition speed in milliseconds
+          dragFree: true, // Allow free dragging without aligning to slides
         }}
         onMouseEnter={plugin.current.stop}
         onMouseLeave={plugin.current.reset}
