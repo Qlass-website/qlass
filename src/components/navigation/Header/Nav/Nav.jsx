@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 
 const links = [
   { path: "/", name: "home" },
-  { path: "/about", name: "about" },
-  { path: "/courses", name: "courses" },
+  { path: "/ai-homework", name: "AI Homework" },
   { path: "/contact", name: "contact" },
 ];
 
