@@ -2,9 +2,10 @@ import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const links = [
-  { path: "/", name: "home" },
+  { path: "/", name: "Home" },
   { path: "/ai-homework", name: "AI Homework" },
-  { path: "/contact", name: "contact" },
+  { path: "/our-work", name: "Our Work" },
+  { path: "/contact", name: "Contact" },
 ];
 
 export default function Nav({ containerStyles, linkStyles, underlineStyles }) {

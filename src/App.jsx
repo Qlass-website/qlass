@@ -3,6 +3,7 @@ import HomePage from "./pages/home-page";
 import Layout from "./Layout";
 import ContactPage from "./pages/contact-page";
 import AIHomeWorkPage from "./pages/ai-homework-page";
+import GallaryPage from "./pages/gallary-page";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="/ai-homework" element={<AIHomeWorkPage />} />
+        <Route path="/our-work" element={<GallaryPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Route>
     </Routes>
