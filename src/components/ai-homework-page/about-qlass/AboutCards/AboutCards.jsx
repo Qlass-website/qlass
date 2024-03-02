@@ -12,7 +12,7 @@ export default function AboutCards({ title, description, imgUrl }) {
             </div>
           </div>
           <div className="mb-10 ml-5 flex w-[46%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="relative flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src={imgUrl}

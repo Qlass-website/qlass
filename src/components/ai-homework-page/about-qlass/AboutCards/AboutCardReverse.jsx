@@ -6,7 +6,7 @@ export default function AboutCardReverse({ title, description, imgUrl }) {
       <div className="w-full pl-20 pr-6 pt-12 max-md:max-w-full max-md:px-5">
         <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="mb-10 flex w-[46%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="relative flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src={imgUrl}
