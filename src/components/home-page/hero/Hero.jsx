@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="w-full bg-indigo-800 pl-20 pr-6 pt-12 max-md:max-w-full max-md:px-5">
         <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex w-[64%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="z-10 my-auto self-stretch space-y-4 text-5xl text-white max-md:mt-10 max-md:max-w-full">
+            <div className="z-10 my-auto space-y-4 self-stretch text-5xl text-white max-md:mt-10 max-md:max-w-full">
               <span className="font-medium">
                 Unleash Your Child's Potential:
               </span>

@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function ImageComponent({ src, alt }) {
-    return <img loading="lazy" src={src} alt={alt} className="w-full aspect-[2.33]" />;
+  return (
+    <img loading="lazy" src={src} alt={alt} className="aspect-[2.33] w-full" />
+  );
 }
 
 export default function Featured() {
@@ -12,5 +14,5 @@ export default function Featured() {
         alt="Featured visual content"
       />
     </section>
-  )
+  );
 }

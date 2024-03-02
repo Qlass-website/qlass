@@ -1,5 +1,5 @@
-import React from 'react'
-import KidsGallary from './KidsGallary/KidsGallary'
+import React from "react";
+import KidsGallary from "./KidsGallary/KidsGallary";
 
 export default function SpeakToOurKids() {
   return (
@@ -23,5 +23,5 @@ export default function SpeakToOurKids() {
         </div>
       </div>
     </div>
-  )
+  );
 }
