@@ -16,17 +16,17 @@ export default function BookingPage() {
   const benefits = [
     {
       imageUrl:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/a4f3046eaf61c757118c3ce9f2bbdf6407c1476157e4b890b8f9f315692e2f03?apiKey=ff29eb85e7464976a6d2464dcda446db&",
+        "/gift.png",
       title: "Goodies",
     },
     {
       imageUrl:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/a4f3046eaf61c757118c3ce9f2bbdf6407c1476157e4b890b8f9f315692e2f03?apiKey=ff29eb85e7464976a6d2464dcda446db&",
+        "/certificate.png",
       title: "Certificate",
     },
     {
       imageUrl:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/a4f3046eaf61c757118c3ce9f2bbdf6407c1476157e4b890b8f9f315692e2f03?apiKey=ff29eb85e7464976a6d2464dcda446db&",
+        "/path.png",
       title: "Personal Path",
     },
   ];
