@@ -13,7 +13,8 @@ export default function Footer() {
             </div>
 
             <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-              India’s first tech enabled offline coaching which guarantees result for student of class VIII to X
+              India’s first tech enabled offline coaching which guarantees
+              result for student of class VIII to X
             </p>
 
             <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -131,7 +132,6 @@ export default function Footer() {
           </div>
 
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-
             <div class="text-center sm:text-left">
               {/* <p class="text-lg font-medium text-gray-900">Our Services</p> */}
 
@@ -341,7 +341,8 @@ export default function Footer() {
             </p>
 
             <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-              &copy; 2024 Qlass Made with ❤️ by <Link to="https://mattr.co.in">Mattr</Link>
+              &copy; 2024 Qlass Made with ❤️ by{" "}
+              <Link to="https://mattr.co.in">Mattr</Link>
             </p>
           </div>
         </div>

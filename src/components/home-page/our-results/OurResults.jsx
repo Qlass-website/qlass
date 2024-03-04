@@ -1,6 +1,6 @@
 import React from "react";
 import ResultsDisplayCards from "./ResultsDisplayCards/ResultsDisplayCards";
-import ResultsCards from "./ResultsDisplayCards/ResultsCard";
+import Marquee from "react-fast-marquee";
 
 export default function OurResults() {
   return (
@@ -15,13 +15,13 @@ export default function OurResults() {
             </div>
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
-              <div className="mt-10 space-y-5">
-                <ResultsDisplayCards />
-                <ResultsCards />
-                <ResultsDisplayCards />
+            <Marquee speed={100}>
+              <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+                <div className="mt-10 space-y-5">
+                  <ResultsDisplayCards />
+                </div>
               </div>
-            </div>
+            </Marquee>
           </div>
         </div>
       </div>

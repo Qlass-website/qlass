@@ -15,18 +15,15 @@ const BenefitItem = ({ imageUrl, title }) => (
 export default function BookingPage() {
   const benefits = [
     {
-      imageUrl:
-        "/gift.png",
+      imageUrl: "/gift.png",
       title: "Goodies",
     },
     {
-      imageUrl:
-        "/certificate.png",
+      imageUrl: "/certificate.png",
       title: "Certificate",
     },
     {
-      imageUrl:
-        "/path.png",
+      imageUrl: "/path.png",
       title: "Personal Path",
     },
   ];

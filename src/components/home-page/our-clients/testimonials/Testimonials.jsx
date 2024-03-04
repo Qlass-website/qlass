@@ -18,73 +18,73 @@ export default function Testimonials() {
       id: 1,
       rating: 5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "When I came first time, I was scared and have tension of how to improve my studies. But after my first days I understand and learn the best and easy way of studies in my life because of the best teacher and management and best easy way of teaching it helped mevery much before joining the coaching my maths and science was worst and after joining the coaching, my maths and science are going to be best from to be best. I like science very much now from before and after Maths and at last, but not the least I want to thank the management and teacher to teaching me nice and in a very easy way.",
+      name: "Anshul",
+      image: "/Anshul.jpg",
     },
     {
       id: 2,
-      rating: 4,
+      rating: 4.5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "As honest my feelings for coaching are that key coaching, Bahut Mast Hai and Humko Lagta Hai ki Yeh Best coaching of Patna Hai because is coaching my teacher Sabat friendly and according to me students khol Ke Apni Saari Baaten share kar sakte hain teacher school like Problem life Main Hota Hai and coaching mein Han Aste Padai Hoti Hai and coaching my teachers come Friends Jada Hote hain Sab Ke of pressure Nahi Hota or Parag ko leke bahar teacher Sab sare concept clear kar Dete hain and honestly speakinggrateful grateful ki hum is coaching my Padte Hain. Thank you",
+      name: "Tanmay",
+      image: "/Tanmay.jpg",
     },
     {
       id: 3,
-      rating: 3,
+      rating: 4,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "Jab Maine coaching join kiya T mujhe Bohot special feel Hota Tha Yogi saare teachers Jada Tara Mere Upar focus Karte The starting mujhe Jada kuch Samajh nahin Aata Tha Par Dheere Dheere mujhe Samajh ane laga Pele mujhe physics ka numerical Bilkul Samajh mein nahin Aata Tha par a sari numerical mujhe Bohot Lagne laga Pehle mujhe Maths Bana Bilkul pasand Nahi Tha par mujhe Maths Banane mein Maza Aata Haiology mein mam Bohot Achcha Hai chemistry mein Mere Pehle Se Bohot Jada improvement Hai Yahan teachers Bohot friendly hair coaching join karne ke baad meri school mein periodic test usme Mera Bohot acha marks aaya h",
+      name: "Deepasmita",
+      image: "/Deepsmita.jpg",
     },
     {
       id: 4,
-      rating: 4,
+      rating: 5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "When I came first time, I was scared and have tension of how to improve my studies. But after my first days I understand and learn the best and easy way of studies in my life because of the best teacher and management and best easy way of teaching it helped mevery much before joining the coaching my maths and science was worst and after joining the coaching, my maths and science are going to be best from to be best. I like science very much now from before and after Maths and at last, but not the least I want to thank the management and teacher to teaching me nice and in a very easy way.",
+      name: "Anshul",
+      image: "/Anshul.jpg",
     },
     {
       id: 5,
-      rating: 4,
+      rating: 4.5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "As honest my feelings for coaching are that key coaching, Bahut Mast Hai and Humko Lagta Hai ki Yeh Best coaching of Patna Hai because is coaching my teacher Sabat friendly and according to me students khol Ke Apni Saari Baaten share kar sakte hain teacher school like Problem life Main Hota Hai and coaching mein Han Aste Padai Hoti Hai and coaching my teachers come Friends Jada Hote hain Sab Ke of pressure Nahi Hota or Parag ko leke bahar teacher Sab sare concept clear kar Dete hain and honestly speakinggrateful grateful ki hum is coaching my Padte Hain. Thank you",
+      name: "Tanmay",
+      image: "/Tanmay.jpg",
     },
     {
       id: 6,
       rating: 4,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "Jab Maine coaching join kiya T mujhe Bohot special feel Hota Tha Yogi saare teachers Jada Tara Mere Upar focus Karte The starting mujhe Jada kuch Samajh nahin Aata Tha Par Dheere Dheere mujhe Samajh ane laga Pele mujhe physics ka numerical Bilkul Samajh mein nahin Aata Tha par a sari numerical mujhe Bohot Lagne laga Pehle mujhe Maths Bana Bilkul pasand Nahi Tha par mujhe Maths Banane mein Maza Aata Haiology mein mam Bohot Achcha Hai chemistry mein Mere Pehle Se Bohot Jada improvement Hai Yahan teachers Bohot friendly hair coaching join karne ke baad meri school mein periodic test usme Mera Bohot acha marks aaya h",
+      name: "Deepasmita",
+      image: "/Deepsmita.jpg",
     },
     {
       id: 7,
-      rating: 4,
+      rating: 5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "When I came first time, I was scared and have tension of how to improve my studies. But after my first days I understand and learn the best and easy way of studies in my life because of the best teacher and management and best easy way of teaching it helped mevery much before joining the coaching my maths and science was worst and after joining the coaching, my maths and science are going to be best from to be best. I like science very much now from before and after Maths and at last, but not the least I want to thank the management and teacher to teaching me nice and in a very easy way.",
+      name: "Anshul",
+      image: "/Anshul.jpg",
     },
     {
       id: 8,
-      rating: 4,
+      rating: 4.5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "As honest my feelings for coaching are that key coaching, Bahut Mast Hai and Humko Lagta Hai ki Yeh Best coaching of Patna Hai because is coaching my teacher Sabat friendly and according to me students khol Ke Apni Saari Baaten share kar sakte hain teacher school like Problem life Main Hota Hai and coaching mein Han Aste Padai Hoti Hai and coaching my teachers come Friends Jada Hote hain Sab Ke of pressure Nahi Hota or Parag ko leke bahar teacher Sab sare concept clear kar Dete hain and honestly speakinggrateful grateful ki hum is coaching my Padte Hain. Thank you",
+      name: "Tanmay",
+      image: "/Tanmay.jpg",
     },
     {
       id: 9,
       rating: 4,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "John Doe",
-      image: "https://github.com/shadcn.png",
+        "Jab Maine coaching join kiya T mujhe Bohot special feel Hota Tha Yogi saare teachers Jada Tara Mere Upar focus Karte The starting mujhe Jada kuch Samajh nahin Aata Tha Par Dheere Dheere mujhe Samajh ane laga Pele mujhe physics ka numerical Bilkul Samajh mein nahin Aata Tha par a sari numerical mujhe Bohot Lagne laga Pehle mujhe Maths Bana Bilkul pasand Nahi Tha par mujhe Maths Banane mein Maza Aata Haiology mein mam Bohot Achcha Hai chemistry mein Mere Pehle Se Bohot Jada improvement Hai Yahan teachers Bohot friendly hair coaching join karne ke baad meri school mein periodic test usme Mera Bohot acha marks aaya h",
+      name: "Deepasmita",
+      image: "/Deepsmita.jpg",
     },
   ];
 
@@ -99,7 +99,7 @@ export default function Testimonials() {
     }
 
     if (halfStar) {
-      stars.push(<span key="half">½⭐️</span>);
+      stars.push(<span key="half">½</span>);
     }
 
     return stars;
@@ -119,7 +119,7 @@ export default function Testimonials() {
         {testimonialsData.map((testimonial) => (
           <CarouselItem
             key={testimonial.id}
-            className="md:basis-1/2 lg:basis-1/3"
+            className="lg:basis-1/1 md:basis-1/2"
           >
             <div className="p-1">
               <Card>

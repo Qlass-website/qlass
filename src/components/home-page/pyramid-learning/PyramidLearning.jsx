@@ -11,16 +11,19 @@ export default function PyramidLearning() {
                 The Pyramid of <br /> Learning
               </span>
               <p className="text-2xl font-thin text-gray-500">
-                Struggling to remember what you learn? Explore the Learning <br/> Pyramid: a science-backed approach to maximize your <br/> learning potential. Master information, not just memorize it!
+                Struggling to remember what you learn? Explore the Learning{" "}
+                <br /> Pyramid: a science-backed approach to maximize your{" "}
+                <br /> learning potential. Master information, not just memorize
+                it!
               </p>
             </div>
           </div>
           <div className="mb-10 ml-5 flex w-[56%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="relative flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src="/pyramidLearn.png"
-                className="absolute inset-0 size-full rounded-md object-cover"
+                className="absolute rounded-md object-cover"
               />
             </div>
           </div>

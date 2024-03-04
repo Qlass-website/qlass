@@ -20,14 +20,14 @@ export default function BrandCards() {
       <div className="flex w-full transform flex-col items-center space-y-4 py-6 text-center transition-transform hover:scale-105 md:w-[150px]">
         <img
           src="/Brand/brandnew3.png"
-          className="h-auto mx-auto w-full object-cover"
+          className="mx-auto h-auto w-full object-cover"
           alt="Brand 3"
         />
       </div>
       <div className="flex w-full transform flex-col items-center space-y-4 text-center transition-transform hover:scale-105 md:w-[120px]">
         <img
           src="/Brand/brandnew4.png"
-          className="h-auto mx-auto w-full object-cover"
+          className="mx-auto h-auto w-full object-cover"
           alt="Brand 4"
         />
       </div>
