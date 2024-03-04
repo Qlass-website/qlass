@@ -1,5 +1,6 @@
 import Logo from "@/components/Logo";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,8 +13,7 @@ export default function Footer() {
             </div>
 
             <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              consequuntur amet culpa cum itaque neque.
+              India’s first tech enabled offline coaching which guarantees result for student of class VIII to X
             </p>
 
             <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -131,53 +131,11 @@ export default function Footer() {
           </div>
 
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-            <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900">About Us</p>
-
-              <ul class="mt-8 space-y-4 text-sm">
-                <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
-                  >
-                    Company History
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
-                  >
-                    Meet the Team
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
-                  >
-                    Employee Handbook
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
-                  >
-                    {" "}
-                    Careers{" "}
-                  </a>
-                </li>
-              </ul>
-            </div>
 
             <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900">Our Services</p>
+              {/* <p class="text-lg font-medium text-gray-900">Our Services</p> */}
 
-              <ul class="mt-8 space-y-4 text-sm">
+              {/* <ul class="mt-8 space-y-4 text-sm">
                 <li>
                   <a
                     class="text-gray-700 transition hover:text-gray-700/75"
@@ -216,13 +174,13 @@ export default function Footer() {
                     Google Ads{" "}
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
 
             <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900">Helpful Links</p>
+              {/* <p class="text-lg font-medium text-gray-900">Helpful Links</p> */}
 
-              <ul class="mt-8 space-y-4 text-sm">
+              {/* <ul class="mt-8 space-y-4 text-sm">
                 <li>
                   <a
                     class="text-gray-700 transition hover:text-gray-700/75"
@@ -240,6 +198,39 @@ export default function Footer() {
                   >
                     {" "}
                     Support{" "}
+                  </a>
+                </li>
+              </ul> */}
+            </div>
+
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">About Us</p>
+
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a
+                    class="text-gray-700 transition hover:text-gray-700/75"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-700 transition hover:text-gray-700/75"
+                    href="#"
+                  >
+                    AI Tutor
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-700 transition hover:text-gray-700/75"
+                    href="#"
+                  >
+                    Results
                   </a>
                 </li>
               </ul>
@@ -269,7 +260,7 @@ export default function Footer() {
                       />
                     </svg>
 
-                    <span class="flex-1 text-gray-700">john@doe.com</span>
+                    <span class="flex-1 text-gray-700">mailus@qlass.in</span>
                   </a>
                 </li>
 
@@ -293,7 +284,7 @@ export default function Footer() {
                       />
                     </svg>
 
-                    <span class="flex-1 text-gray-700">0123456789</span>
+                    <span class="flex-1 text-gray-700">+91 9031003986</span>
                   </a>
                 </li>
 
@@ -319,7 +310,7 @@ export default function Footer() {
                   </svg>
 
                   <address class="-mt-0.5 flex-1 not-italic text-gray-700">
-                    213 Lane, London, United Kingdom
+                    Khagual, Danapur, Patna, Bihar-801503
                   </address>
                 </li>
               </ul>
@@ -350,7 +341,7 @@ export default function Footer() {
             </p>
 
             <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-              &copy; 2024 Qlass Made with ❤️ by Mattr
+              &copy; 2024 Qlass Made with ❤️ by <Link to="https://mattr.co.in">Mattr</Link>
             </p>
           </div>
         </div>

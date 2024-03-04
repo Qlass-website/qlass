@@ -8,12 +8,12 @@ function ContentSection() {
           AI Powered Homework Assistance for All
         </h1>
         <p className="mt-7 text-xl leading-8 text-white text-opacity-60 max-md:max-w-full">
-          Lorem ipsum dolor sit amet consectetur. Eu eu sagittis nulla praesent. Volutpat et libero id sit at.
+        Embrace innovation, transform education, and lead <br/> the way in nurturing the next generation of learners.
         </p>
-        <button className="justify-center self-start px-12 py-6 mt-11 text-lg leading-5 capitalize whitespace-nowrap bg-blue-600 rounded-3xl max-md:px-5 max-md:mt-10"
+        {/* <button className="justify-center self-start px-12 py-6 mt-11 text-lg leading-5 capitalize whitespace-nowrap bg-blue-600 rounded-3xl max-md:px-5 max-md:mt-10"
                 tabindex="0">
           Want to explore
-        </button>
+        </button> */}
       </div>
     </div>
   );

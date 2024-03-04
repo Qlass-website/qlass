@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="relative mt-12 flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
-                src="/HeroImage.png"
+                src="/Girlbanner.png"
                 className="absolute inset-0 size-full object-cover"
               />
             </div>

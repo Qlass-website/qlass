@@ -11,10 +11,7 @@ export default function PyramidLearning() {
                 The Pyramid of <br /> Learning
               </span>
               <p className="text-2xl font-thin text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem enim fugiat nostrum modi magni sint, odio magnam
-                sit excepturi incidunt obcaecati expedita molestias sequi
-                dolorem at? Suscipit iusto dicta rerum!
+                Struggling to remember what you learn? Explore the Learning <br/> Pyramid: a science-backed approach to maximize your <br/> learning potential. Master information, not just memorize it!
               </p>
             </div>
           </div>
