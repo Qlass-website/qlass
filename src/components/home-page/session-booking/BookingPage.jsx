@@ -6,7 +6,7 @@ const BenefitItem = ({ imageUrl, title }) => (
     <img
       src={imageUrl}
       alt={title}
-      className="aspect-[0.83] w-[42px] self-center"
+      className="aspect-[0.83] w-[52px] self-center"
     />
     <div className="mt-4">{title}</div>
   </div>
@@ -27,6 +27,23 @@ export default function BookingPage() {
       title: "Personal Path",
     },
   ];
+
+  const phoneNumber = "+919031003986";
+
+  const whatsappMessage = "Hello! I would like to book a 1:1 online session.";
+
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "+919031003986"; // Add your specific WhatsApp number here
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      whatsappMessage,
+    )}`;
+    window.open(whatsappLink, "_blank");
+  };
+
+  const handleCallClick = () => {
+    const callLink = `tel:${phoneNumber}`;
+    window.open(callLink, "_blank");
+  };
 
   return (
     <div className="flex flex-col xl:-mb-12">
@@ -55,14 +72,16 @@ export default function BookingPage() {
                 <Button
                   variant="default"
                   className="grow items-center justify-center rounded-[34px] bg-indigo-800 px-16 py-8 text-white md:px-5"
+                  onClick={handleWhatsAppClick}
                 >
-                  Whatsapp: +91 9031003986
+                  Book Now
                 </Button>
                 <Button
                   variant="outline"
                   className="grow items-center justify-center rounded-[34px] border-4 border-solid border-indigo-800 px-16 py-7 text-indigo-800 md:px-5"
+                  onClick={handleCallClick}
                 >
-                  Call: +91 9031003986
+                  Call Us
                 </Button>
               </div>
               <div className="mt-16 flex justify-between gap-5 pr-3 md:flex-wrap">

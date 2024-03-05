@@ -7,7 +7,7 @@ export default function LearningChoice() {
     <div className="flex items-center justify-center">
       <div className="w-full bg-indigo-800 p-10">
         <div className="flex flex-col max-md:flex-col-reverse max-md:items-center">
-          <div className="mt-10 text-center max-md:mb-10 max-md:w-full">
+          <div className="text-center max-md:mb-10 max-md:w-full xl:mt-10">
             <div className="text-4xl font-medium text-white">
               <Badge variant="primary">How We Start Journey</Badge>
             </div>

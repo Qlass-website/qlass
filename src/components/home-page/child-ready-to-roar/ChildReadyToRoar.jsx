@@ -6,10 +6,10 @@ export default function ChildReadyToRoar() {
       <div className="w-full">
         <div className="flex flex-col max-md:flex-col-reverse max-md:items-center">
           <div className="text-center max-md:mb-10 max-md:w-full">
-            <div className="mt-3 text-4xl font-bold text-black">
+            <div className="mt-3 text-2xl font-bold text-black md:text-4xl">
               Is your child ready to roar!!
             </div>
-            <div className="mt-3 text-3xl font-light text-black">
+            <div className="mt-3 text-xl font-light text-black md:text-3xl">
               At QLASS, we believe every child holds the potential for
               greatness. We're dedicated to <br /> building a strong foundation
               for their academic success, equipping them with the tools <br />{" "}
