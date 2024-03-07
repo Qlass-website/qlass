@@ -16,7 +16,7 @@ export default function OurResults() {
           </div>
           <div className="w-full max-md:w-full">
             <Marquee speed={100}>
-              <div className="relative min-h-[397px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+              <div className="relative min-h-[197px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
                 <div className="mt-10 space-y-5">
                   <ResultsDisplayCards />
                 </div>

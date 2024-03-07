@@ -6,7 +6,7 @@ const BenefitItem = ({ imageUrl, title }) => (
     <img
       src={imageUrl}
       alt={title}
-      className="aspect-[0.83] w-[52px] self-center"
+      className="w-[52px] h-[52px] self-center"
     />
     <div className="mt-4">{title}</div>
   </div>
@@ -50,7 +50,7 @@ export default function BookingPage() {
       <div className="w-full pr-6 max-md:max-w-full max-md:px-5">
         <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="mb-10 flex w-[56%] flex-col max-md:w-full">
-            <div className="relative flex min-h-[697px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative flex min-h-[300px] lg:min-h-[697px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d9a9ef75382109131f1502275d20f33b2dbd7fcbf5fde5985c59f6512753267?apiKey=ff29eb85e7464976a6d2464dcda446db&"
@@ -68,7 +68,7 @@ export default function BookingPage() {
                 Unleash your child's unique talents - book a counseling session
                 to tailor their educational journey.
               </p>
-              <div className="mt-16 flex justify-between gap-5 whitespace-nowrap text-center text-xl font-bold md:flex-wrap">
+              <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 justify-between gap-5 whitespace-nowrap text-center text-xl font-bold md:flex-wrap">
                 <Button
                   variant="default"
                   className="grow items-center justify-center rounded-[34px] bg-indigo-800 px-16 py-8 text-white md:px-5"

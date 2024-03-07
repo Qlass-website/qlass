@@ -7,7 +7,7 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
+            <Avatar className="w-20 h-20">
               <AvatarImage src="/Shaurya.jpg" />
             </Avatar>
             <div>
@@ -32,8 +32,8 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
-              <AvatarImage src="https://github.com/shadcn.png" />
+            <Avatar className="w-20 h-20">
+              <AvatarImage src="https://github.com/shadcn.png"/>
             </Avatar>
             <div>
               <h1 className="text-lg">Ujjwal</h1>
@@ -57,8 +57,8 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
-              <AvatarImage src="/Shruti.jpg" />
+            <Avatar className="w-20 h-20">
+              <AvatarImage src="/Shruti.jpg"/>
             </Avatar>
             <div>
               <h1 className="text-lg">Shruti</h1>
@@ -82,8 +82,8 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
-              <AvatarImage src="/Prakhar.jpg" />
+            <Avatar className="w-20 h-20">
+              <AvatarImage src="/Prakhar.jpg"/>
             </Avatar>
             <div>
               <h1 className="text-lg">Prakhar</h1>
@@ -107,7 +107,7 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
+            <Avatar className="w-20 h-20">
               <AvatarImage src="https://github.com/shadcn.png" />
             </Avatar>
             <div>
@@ -132,8 +132,8 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
-              <AvatarImage src="/Deepsmita.jpg" />
+            <Avatar className="w-20 h-20">
+              <AvatarImage src="/Deepsmita.jpg"/>
             </Avatar>
             <div>
               <h1 className="text-lg">Deepasmita</h1>
@@ -157,7 +157,7 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
+            <Avatar className="w-20 h-20">
               <AvatarImage src="/Anshul.jpg" />
             </Avatar>
             <div>
@@ -182,8 +182,8 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
-              <AvatarImage src="/Gunjan.jpg" />
+            <Avatar className="w-20 h-20">
+              <AvatarImage src="/Gunjan.jpg"/>
             </Avatar>
             <div>
               <h1 className="text-lg">Gunjan</h1>
@@ -207,8 +207,8 @@ export default function ResultsDisplayCards() {
       <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
-            <Avatar>
-              <AvatarImage src="/Tanmay.jpg" />
+            <Avatar className="w-20 h-20">
+              <AvatarImage src="/Tanmay.jpg"/>
             </Avatar>
             <div>
               <h1 className="text-lg">Tanmay</h1>

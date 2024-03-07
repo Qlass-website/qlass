@@ -90,18 +90,26 @@ export default function Testimonials() {
 
   const getStarIcons = (rating) => {
     const fullStars = Math.floor(rating);
-    const halfStar = rating % 1 !== 0;
-
+    const hasHalfStar = rating % 1 !== 0;
+  
     const stars = [];
-
+  
     for (let i = 0; i < fullStars; i++) {
       stars.push(<span key={i}>⭐️</span>);
     }
-
-    if (halfStar) {
-      stars.push(<span key="half">½</span>);
+  
+    if (hasHalfStar) {
+      stars.push(<span key="half" style={{ position: "relative", display: "inline-block" }}>
+        <span style={{
+          position: "absolute",
+          overflow: "hidden",
+          width: "50%",
+          height: "100%",
+        }}>⭐️</span>
+        ⭐️
+      </span>);
     }
-
+  
     return stars;
   };
 
@@ -125,7 +133,7 @@ export default function Testimonials() {
               <Card>
                 <CardContent className="flex flex-col items-center p-6 md:flex-row md:justify-between md:space-x-14">
                   <div className="flex items-center space-x-4 md:mb-0">
-                    <Avatar>
+                    <Avatar className="w-20 h-20">
                       <AvatarImage src={testimonial.image} />
                       <AvatarFallback>{testimonial.name}</AvatarFallback>
                     </Avatar>

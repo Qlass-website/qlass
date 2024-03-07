@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ChildReadyToRoar() {
   return (
-    <div className="mt-5 flex items-center justify-center">
+    <div className="lg:mt-5 flex items-center justify-center">
       <div className="w-full">
         <div className="flex flex-col max-md:flex-col-reverse max-md:items-center">
           <div className="text-center max-md:mb-10 max-md:w-full">

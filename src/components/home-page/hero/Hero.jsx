@@ -11,13 +11,13 @@ export default function Hero() {
                 Unleash Your Child's Potential:
               </span>
               <br />
-              <span className="font-light">Build a Strong Foundation for </span>
+              <span className="font-thin">Build a Strong Foundation for </span>
               <br />
-              <span className="font-light">Future Success</span>
+              <span className="font-thin">Future Success</span>
             </div>
           </div>
           <div className="ml-5 flex w-[56%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="relative mt-12 flex min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative mt-12 flex min-h-[360px] -mb-3 md:mb-0 md:min-h-[497px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src="/Girlbanner.png"
