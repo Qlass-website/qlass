@@ -18,8 +18,8 @@ export default function Nav({ containerStyles, linkStyles, underlineStyles }) {
         <Link
           to={link.path}
           key={index}
-          className={`capitalize ${linkStyles} ${
-            link.path === location.pathname ? "font-bold text-[#2E23B8]" : "text-gray-600"
+          className={` ${linkStyles} ${
+            link.path === location.pathname ? "font-bold text-[#2E23B8] uppercase" : "text-gray-600"
           }`}
         >
           {link.path === location.pathname && (

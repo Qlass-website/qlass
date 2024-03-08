@@ -4,21 +4,21 @@ export default function ChildReadyToRoar() {
   return (
     <div className="lg:mt-5 flex items-center justify-center">
       <div className="w-full">
-        <div className="flex flex-col max-md:flex-col-reverse max-md:items-center">
-          <div className="text-center max-md:mb-10 max-md:w-full">
-            <div className="mt-3 text-2xl font-bold text-black md:text-4xl">
-              Is your child ready to roar!!
+        <div className="flex flex-col max-md:flex-col max-md:items-center">
+          <div className="text-center max-md:mb-0 max-md:w-full">
+            <div className="mt-3 text-xl font-bold text-black md:text-4xl">
+              The Qlass Advantage
             </div>
-            <div className="mt-3 text-xl font-light text-black md:text-3xl">
+            {/* <div className="mt-3 text-xl font-light text-black md:text-3xl">
               At QLASS, we believe every child holds the potential for
               greatness. We're dedicated to <br /> building a strong foundation
               for their academic success, equipping them with the tools <br />{" "}
               and skills they need to thrive in primary and middle school.
-            </div>
+            </div> */}
           </div>
           <div className="w-full max-md:w-full">
-            <div className="relative min-h-[340px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
-              <div className="mt-8 flex justify-center">
+            <div className="relative md:min-h-[340px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+              <div className="md:mt-8 flex justify-center">
                 <img
                   loading="lazy"
                   src="/image.png"

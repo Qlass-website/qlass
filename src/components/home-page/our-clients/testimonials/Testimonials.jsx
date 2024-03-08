@@ -130,7 +130,7 @@ export default function Testimonials() {
             className="lg:basis-1/1 md:basis-1/2"
           >
             <div className="p-1">
-              <Card>
+              <Card className="">
                 <CardContent className="flex flex-col items-center p-6 md:flex-row md:justify-between md:space-x-14">
                   <div className="flex items-center space-x-4 md:mb-0">
                     <Avatar className="w-20 h-20">

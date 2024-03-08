@@ -8,7 +8,7 @@ const BenefitItem = ({ imageUrl, title }) => (
       alt={title}
       className="w-[52px] h-[52px] self-center"
     />
-    <div className="mt-4">{title}</div>
+    <div className="mt-4 text-sm">{title}</div>
   </div>
 );
 
@@ -24,7 +24,7 @@ export default function BookingPage() {
     },
     {
       imageUrl: "/path.png",
-      title: "Personal Path",
+      title: "Personalised Career Report",
     },
   ];
 
@@ -84,7 +84,10 @@ export default function BookingPage() {
                   Call Us
                 </Button>
               </div>
-              <div className="mt-16 flex justify-between gap-5 pr-3 md:flex-wrap">
+
+              <div>
+                <h2 className="text-center mt-16 text-xl font-bold">Attend Counselling Session to Get</h2>
+                <div className="mt-8 flex justify-between gap-5 pr-3 md:flex-wrap">
                 {benefits.map((benefit) => (
                   <BenefitItem
                     key={benefit.title}
@@ -93,6 +96,8 @@ export default function BookingPage() {
                   />
                 ))}
               </div>
+              </div>
+              
             </div>
           </div>
         </div>
