@@ -46,16 +46,16 @@ export default function BookingPage() {
   };
 
   return (
-    <div className="flex flex-col xl:-mb-12">
+    <div className="flex flex-col xl:-mb-20">
       <div className="w-full pr-6 max-md:max-w-full max-md:px-5">
-        <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
+        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="mb-10 flex w-[56%] flex-col max-md:w-full">
             <div className="relative flex min-h-[300px] lg:min-h-[697px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d9a9ef75382109131f1502275d20f33b2dbd7fcbf5fde5985c59f6512753267?apiKey=ff29eb85e7464976a6d2464dcda446db&"
                 alt="Session booking visual"
-                className="absolute inset-0 "
+                className="absolute"
               />
             </div>
           </div>

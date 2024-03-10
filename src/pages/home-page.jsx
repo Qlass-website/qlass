@@ -1,5 +1,6 @@
 import Brands from "@/components/home-page/brands/Brands";
 import ChildReadyToRoar from "@/components/home-page/child-ready-to-roar/ChildReadyToRoar";
+import CTA from "@/components/home-page/cta/CTA";
 import Hero from "@/components/home-page/hero/Hero";
 //import HowToStart from "@/components/home-page/how-to-start/HowToStart";
 import LearningChoice from "@/components/home-page/learning-choice/LearningChoice";
@@ -24,6 +25,7 @@ export default function HomePage() {
       <PyramidLearning />
       <OurClients />
       {/* <HowToStart /> */}
+      <CTA />
       <BookingPage />
     </>
   );
