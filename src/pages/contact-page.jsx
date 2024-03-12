@@ -4,6 +4,8 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phonenumber: "",
+    city: "",
     message: "",
   });
 
@@ -25,6 +27,9 @@ export default function ContactPage() {
     setFormData({
       name: "",
       email: "",
+      phonenumber: "",
+      city:"",
+      whatsapp: "",
       message: "",
     });
   };
@@ -64,6 +69,61 @@ export default function ContactPage() {
               id="email"
               name="email"
               value={formData.email}
+              onChange={handleChange}
+              className="mt-1 w-full rounded-md bg-gray-100 p-3 focus:border-blue-300 focus:outline-none focus:ring"
+              required
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="phonenumber"
+              className="block text-sm font-medium text-gray-700"
+            >
+              Phone Number
+            </label>
+            <input
+              type="tel"
+              id="phonenumber"
+              name="phonenumber"
+              value={formData.phonenumber}
+              onChange={handleChange}
+              pattern="[0-9]+"
+              inputMode="numeric"
+              className="mt-1 w-full rounded-md bg-gray-100 p-3 focus:border-blue-300 focus:outline-none focus:ring"
+              required
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="whatsapp"
+              className="block text-sm font-medium text-gray-700"
+            >
+              WhatsApp Number
+            </label>
+            <input
+              type="tel"
+              id="whatsapp"
+              name="whatsapp"
+              value={formData.whatsapp}
+              onChange={handleChange}
+              pattern="[0-9]+"
+              inputMode="numeric"
+              className="mt-1 w-full rounded-md bg-gray-100 p-3 focus:border-blue-300 focus:outline-none focus:ring"
+              required
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="city"
+              className="block text-sm font-medium text-gray-700"
+            >
+              City
+            </label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              value={formData.city}
               onChange={handleChange}
               className="mt-1 w-full rounded-md bg-gray-100 p-3 focus:border-blue-300 focus:outline-none focus:ring"
               required

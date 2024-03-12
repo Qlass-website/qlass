@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "./components/navigation/Footer/Footer";
 import { motion } from "framer-motion";
 import useScroll from "./hooks/useScroll";
+import Footer2 from "./components/navigation/Footer/Footer2";
 
 const variants = {
   hidden: { opacity: 0 },
@@ -22,7 +23,8 @@ export default function Layout() {
       >
         <Header />
         <Outlet />
-        <Footer />
+        {/* <Footer /> */}
+        <Footer2 />
       </motion.main>
       <span
         style={{ transform: `translateY(${completion - 100}%)` }}

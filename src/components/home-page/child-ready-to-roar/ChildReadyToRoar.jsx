@@ -9,12 +9,12 @@ export default function ChildReadyToRoar() {
             <div className="mt-3 text-xl font-bold text-black md:text-4xl">
               The Qlass Advantage
             </div>
-            <div className="mt-3 text-md font-light text-black lg:text-3xl">
+            {/* <div className="mt-3 text-md font-light text-black lg:text-3xl">
               At QLASS, we believe every child holds the potential for
               greatness. We're dedicated to <br /> building a strong foundation
               for their academic success, equipping them with the tools <br />{" "}
               and skills they need to thrive in primary and middle school.
-            </div>
+            </div> */}
           </div>
           <div className="w-full max-md:w-full">
             <div className="relative md:min-h-[340px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">

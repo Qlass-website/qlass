@@ -6,11 +6,11 @@ export default function PyramidLearning() {
       <div className="w-full pl-20 pr-6 max-md:max-w-full max-md:px-5">
         <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex w-[44%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="z-10 my-auto space-y-4 self-stretch text-indigo-800 max-md:mt-10 max-md:max-w-full">
-              <span className="text-4xl font-bold">
+            <div className="z-10 my-auto space-y-4 text-center md:text-left self-stretch text-indigo-800 max-md:mt-10 max-md:max-w-full">
+              <span className="text-2xl md:text-4xl font-bold">
                 The Pyramid of <br /> Learning
               </span>
-              <p className="text-2xl font-thin text-gray-500">
+              <p className="md:text-2xl font-thin text-gray-500">
                 Struggling to remember what you learn? Explore the Learning{" "}
                 <br /> Pyramid: a science-backed approach to maximize your{" "}
                 <br /> learning potential. Master information, not just memorize
