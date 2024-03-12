@@ -4,7 +4,7 @@ import Testimonials from "./testimonials/Testimonials";
 export default function OurClients() {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full bg-[#FBF9F4] p-10">
+      <div className="w-full bg-[#FBF9F4] px-10 py-4">
         <div className="flex flex-col max-md:flex-col max-md:items-center">
           <div className="text-center max-md:mb-10 max-md:w-full">
             {/* <div className="mt-4 text-xl font-medium text-gray-500">

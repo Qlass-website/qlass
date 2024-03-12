@@ -46,7 +46,7 @@ export default function BookingPage() {
   };
 
   return (
-    <div className="flex flex-col mb-8 xl:-mb-20">
+    <div className="flex flex-col mb-8 xl:-mb-[86px]">
       <div className="w-full pr-6 max-md:max-w-full max-md:px-5">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="mb-10 flex w-[56%] flex-col max-md:w-full">

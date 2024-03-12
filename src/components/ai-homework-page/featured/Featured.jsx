@@ -15,7 +15,9 @@ function ContentSection() {
                 tabindex="0">
           Download Here
         </button> */}
-        <img loading="lazy" src="/qr.png" className="w-[150px] h-[150px] mb-5 md:mb-0 mt-5 rounded-md" alt="" />
+        <div className="lg:ml-32">
+        <img loading="lazy" src="/qr.png" className="w-[150px] h-[150px items-center mb-5 md:mb-0 mt-5 rounded-md" alt="" />
+        </div>
       </div>
     </div>
   );

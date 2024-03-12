@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer2() {
   return (
-    <section class="bg-black">
+    <section class="bg-[#1A1A1A]">
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <div className='flex flex-col items-center justify-center'>
             <div><Logo/></div>
@@ -16,27 +16,27 @@ export default function Footer2() {
         </div>
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
             <div class="px-5 py-2">
-                <a href="/" class="text-base leading-6 text-white hover:text-gray-900">
+                <a href="/" class="text-base leading-6 text-white hover:text-white">
                     Home
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-white hover:text-gray-900">
+                <a href="#" class="text-base leading-6 text-white hover:text-white">
                     AI Tutor
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-white hover:text-gray-900">
+                <a href="#" class="text-base leading-6 text-white hover:text-white">
                     Results
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-white hover:text-gray-900">
+                <a href="#" class="text-base leading-6 text-white hover:text-white">
                     Terms & Conditions
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-white hover:text-gray-900">
+                <a href="#" class="text-base leading-6 text-white hover:text-white">
                     Privacy Policy
                 </a>
             </div>
