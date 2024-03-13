@@ -15,17 +15,20 @@ import React from "react";
 export default function HomePage() {
   return (
     <>
-      <Hero />
+        <Hero />
       <OurResults />
       <Brands />
       <ChildReadyToRoar />
-      <LearningChoice />
+      <div className="">
+        <LearningChoice />
       {/* <WhatWeOffer /> */}
       <WhyQlass />
       <PyramidLearning />
       <OurClients />
       {/* <HowToStart /> */}
       <CTA />
+      
+      </div>
       <BookingPage />
     </>
   );

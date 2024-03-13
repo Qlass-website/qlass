@@ -5,7 +5,7 @@ export default function Brands() {
   return (
     <div className="flex items-center justify-center">
       <div className="w-full bg-[#FCFCFC] p-10">
-        <div className="flex flex-col max-md:flex-col max-md:items-center">
+        <div className="flex flex-col max-md:flex-col max-md:items-center px-10">
           <div className="mt-10 text-center max-md:mb-0 max-md:w-full">
             <div className="mt-4 text-xl md:text-4xl font-medium text-[#50536A]">
               {" "}

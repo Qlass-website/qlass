@@ -26,7 +26,7 @@ const Carousel = () => {
       data-te-carousel-init
       data-te-ride="carousel"
     >
-      <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+      <div className="relative w-full px-20 overflow-hidden after:clear-both after:block after:content-['']">
         <div
           className={`relative float-left ${activeIndex === 0 ? "" : "-mr-[100%] hidden"} duration-[600ms] w-full transition-transform ease-in-out motion-reduce:transition-none`}
           data-te-carousel-item

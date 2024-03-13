@@ -2,13 +2,13 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 
 const BenefitItem = ({ imageUrl, title }) => (
-  <div className="flex flex-col ml-10 md:ml-0 justify-center text-center text-xl font-bold text-black">
+  <div className="flex flex-col items-center ml-10 md:ml-10 justify-center text-center font-bold text-black">
     <img
       src={imageUrl}
       alt={title}
-      className="w-[52px] h-[52px] self-center"
+      className="w-[50px] h-[50px] self-center"
     />
-    <div className="mt-4 text-sm">{title}</div>
+    <div className="mt-4 text-sm w-32">{title}</div>
   </div>
 );
 
@@ -55,7 +55,7 @@ export default function BookingPage() {
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d9a9ef75382109131f1502275d20f33b2dbd7fcbf5fde5985c59f6512753267?apiKey=ff29eb85e7464976a6d2464dcda446db&"
                 alt="Session booking visual"
-                className="absolute"
+                className="absolute object-contain"
               />
             </div>
           </div>
