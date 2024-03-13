@@ -40,8 +40,7 @@ export default function Footer2() {
                     Privacy Policy
                 </a>
             </div>
-        </nav>
-        <div class="text-center">
+            <div class="text-center px-5 py-4">
             {/* <p class="text-lg font-medium text-gray-500">Contact Us</p> */}
 
             <div className='flex flex-wrap items-center justify-center space-x-5'>
@@ -112,12 +111,13 @@ export default function Footer2() {
                     />
                   </svg>
 
-                  <address class="-mt-0.5 flex-1 not-italic text-white">
+                  <address class="flex-1 not-italic text-white">
                     Khagual, Danapur, Patna, Bihar-801503
                   </address>
                   </div>
             </div>
         </div>
+        </nav>
         {/* <div class="flex justify-center mt-8 space-x-6">
             <a href="#" class="text-gray-400 hover:text-gray-500">
                 <span class="sr-only">Facebook</span>
