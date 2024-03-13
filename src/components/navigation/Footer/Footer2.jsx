@@ -150,7 +150,7 @@ export default function Footer2() {
                 </svg>
             </a>
         </div> */}
-        <p class="mt-8 text-base leading-6 text-center text-white">
+        <p class="text-base leading-6 text-center text-white">
             &copy; 2024 Qlass Made with ❤️ by{" "}
               <Link to="https://mattr.co.in">Mattr</Link>
         </p>

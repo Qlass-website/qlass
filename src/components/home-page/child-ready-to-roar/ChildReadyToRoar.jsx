@@ -17,12 +17,12 @@ export default function ChildReadyToRoar() {
             </div> */}
           </div>
           <div className="w-full max-md:w-full px-10 md:px-32">
-            <div className="relative md:min-h-[340px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+            <div className="relative min-h-[240px] md:min-h-[440px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
               <div className=" flex justify-center">
                 <img
                   loading="lazy"
                   src="/image.png"
-                  className="xl:ml-5 h-[300px] md:h-auto"
+                  className="absolute size-full xl:ml-5"
                 />
               </div>
             </div>
