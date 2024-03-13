@@ -9,7 +9,7 @@ export default function KidsGallary() {
     <div className="mx-auto px-10 md:px-0 max-w-screen-xl">
       <div className="grid grid-cols-1 gap-x-12 gap-y-4 md:grid-cols-3">
         <div>
-          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-12 w-[400px] h-[200px]">
+          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-6 md:p-12 w-[350px] h-[200px] md:w-[400px] md:h-[200px]">
             <CardTitle>
               <div className="flex items-center">
                 <Avatar className="w-28 h-28">
@@ -36,7 +36,7 @@ export default function KidsGallary() {
           </Card>
         </div>
         <div>
-          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-12 w-[400px] h-[200px]">
+          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-6 md:p-12 w-[350px] h-[200px] md:w-[400px] md:h-[200px]">
             <CardTitle>
               <div className="flex items-center">
                 <Avatar className="w-28 h-28">
@@ -63,7 +63,7 @@ export default function KidsGallary() {
           </Card>
         </div>
         <div>
-          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-12 w-[400px] h-[200px]">
+          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-6 md:p-12 w-[350px] h-[200px] md:w-[400px] md:h-[200px]">
             <CardTitle>
               <div className="flex items-center">
                 <Avatar className="w-28 h-28">
@@ -90,7 +90,7 @@ export default function KidsGallary() {
           </Card>
         </div>
         <div>
-          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-12 w-[400px] h-[200px]">
+          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-6 md:p-12 w-[350px] h-[200px] md:w-[400px] md:h-[200px]">
             <CardTitle>
               <div className="flex items-center">
                 <Avatar className="w-28 h-28">
@@ -117,7 +117,7 @@ export default function KidsGallary() {
           </Card>
         </div>
         <div>
-          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-12 w-[400px] h-[200px]">
+          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-6 md:p-12 w-[350px] h-[200px] md:w-[400px] md:h-[200px]">
             <CardTitle>
               <div className="flex items-center">
                 <Avatar className="w-28 h-28">
@@ -144,7 +144,7 @@ export default function KidsGallary() {
           </Card>
         </div>
         <div>
-          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-12 w-[400px] h-[200px]">
+          <Card className="flex items-center justify-between rounded-xl border-4 border-indigo-800 p-6 md:p-12 w-[350px] h-[200px] md:w-[400px] md:h-[200px]">
             <CardTitle>
               <div className="flex items-center">
                 <Avatar className="w-28 h-28">
