@@ -2,13 +2,30 @@ import React from "react";
 
 export default function BannerQr() {
   return (
-    <div className="">
-      <img
-        loading="lazy"
-        src="/bannerqr.png"
-        // srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed28db2ff7152867743dc49785f85046d9d60e9523bb06a47d6876533c85924c?apiKey=ff29eb85e7464976a6d2464dcda446db&"
-        className="w-full md:h-[680px]"
-      />
+    <div className="flex flex-col bg-black px-10">
+      <div className="w-full pl-20 pr-6 max-md:max-w-full max-md:px-5">
+        <div className="max-md: flex gap-5 items-center justify-between max-md:flex-col max-md:gap-0">
+          <div className="flex w-[54%] lg:ml-20 flex-col max-md:ml-0 max-md:w-full">
+            <div className="z-10 my-auto space-y-4 self-stretch text-white max-md:mt-10 max-md:max-w-full">
+              <span className="text-4xl font-bold">
+                Scan QR to experience our 24X7 AI tutor on your Whatsapp
+              </span>
+              <div className="">
+        <img loading="lazy" src="/qr.png" className="w-[150px] h-[150px items-center mb-5 md:mb-0 mt-5 rounded-md" alt="" />
+        </div>
+            </div>
+          </div>
+          <div className="flex w-[86%] flex-col max-md:ml-0 max-md:w-full">
+            <div className="relative flex min-h-[307px] md:min-h-[500px] grow flex-col items-center justify-center overflow-hidden md:px-16 md:py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
+              <img
+                loading="lazy"
+                src="/ai1.png"
+                className="absolute rounded-md w-36 md:w-56"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 
 const BenefitItem = ({ imageUrl, title }) => (
-  <div className="flex flex-cols items-center ml-10 md:ml-10 justify-center text-center font-bold text-black">
+  <div className="flex flex-col items-center ml-10 md:ml-10 justify-center text-center font-bold text-black">
     <img
       src={imageUrl}
       alt={title}
-      className="w-[50px] h-[50px] self-center"
+      className="w-[80px] h-[80px] self-center"
     />
     <div className="mt-4 text-sm w-32">{title}</div>
   </div>
@@ -15,7 +15,7 @@ const BenefitItem = ({ imageUrl, title }) => (
 export default function BookingPage() {
   const benefits = [
     {
-      imageUrl: "/gift.png",
+      imageUrl: "/goodies.png",
       title: "Goodies",
     },
     {
@@ -24,7 +24,7 @@ export default function BookingPage() {
     },
     {
       imageUrl: "/path.png",
-      title: "Personalised Career Report",
+      title: "Personalised Path",
     },
   ];
 

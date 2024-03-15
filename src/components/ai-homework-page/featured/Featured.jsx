@@ -28,8 +28,8 @@ function ImageSection() {
     <div className="flex">
       <img
         loading="lazy"
-        src="/bannerImage.png"
-        className="md:w-[600px] md:h-[600px] -mb-5 md:mb-0"
+        src="/aibanner.png"
+        className="md:w-auto md:h-[600px] -mb-5 md:mb-0"
         alt="Homework assistance concept"
       />
     </div>

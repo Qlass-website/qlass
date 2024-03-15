@@ -4,7 +4,7 @@ import AboutCardReverse from "./AboutCards/AboutCardReverse";
 
 export default function AboutQlass() {
   return (
-    <div>
+    <div className="">
       <AboutCards
         title="🎓 Elevate Learning Beyond the Classroom"
         description="The QLASS AI Tutor aims to transform society into a hub of continuous learning. It offers students instant academic assistance around the clock, thereby fostering a culture of exploration and curiosity."
