@@ -51,13 +51,10 @@ export default function PyramidLearning() {
           <div className="flex w-[44%] flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 text-center md:text-left self-stretch text-indigo-800 max-md:mt-10 max-md:max-w-full">
               <span className="text-2xl md:text-4xl font-bold">
-                The Pyramid of <br /> Learning
+                What differentiates Qlass from others?
               </span>
               <p className="md:text-2xl font-thin text-gray-500">
-                Struggling to remember what you learn? Explore the Learning{" "}
-                <br /> Pyramid: a science-backed approach to maximize your{" "}
-                <br /> learning potential. Master information, not just memorize
-                it!
+              Qlass understands that every student learns differently. We tailor our approach to individual needs, using engaging activities, interactive tools, and differentiated <br/> instruction to ensure optimal progress.
               </p>
             </div>
           </div>
