@@ -17,7 +17,7 @@ const HighlightSection = ({ users, schools, states }) => {
         </div>
         <div className="flex items-center space-x-2 md:space-x-5">
           <div className="border p-2 rounded-lg">
-          <img src="/video.png"  className="w-12 h-12 md:w-16 md:h-166"/>
+          <img src="/video.png"  className="w-12 h-12 md:w-16 md:h-16"/>
           </div>
           <div className="">
           <h1 className="text-xl md:text-3xl font-bold">{schools}+</h1>
