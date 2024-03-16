@@ -86,35 +86,35 @@ const kidsData = [
 export default function KidsGallary() {
   return (
     <div className="mx-auto px-4 md:px-0">
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center justify-center">
-        {kidsData.map((kid, index) => (
-          <div key={index}>
-            <Card className="flex flex-col md:flex-row justify-between md:space-x-8 rounded-xl border-4 border-indigo-800 p-14 space-y-4 md:space-y-0 md:p-8 lg:p-12">
-              <CardTitle>
-                <Avatar className="md:ml-0 w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36">
-                  <AvatarImage src={kid.image} />
-                </Avatar>
-              </CardTitle>
-              <CardDescription className="md:flex md:flex-col md:items-center md:space-y-2">
-                <div className="text-center md:text-center space-y-4">
-                  <div className="">
-                    <h1 className="text-lg">{kid.name}</h1>
-                    <p className="text-xs text-gray-500">{kid.class}</p>
-                  </div>
-                  <h1 className="text-red-500">
-                    {kid.initialPercentage}% to{" "}
-                    <span className="text-green-400">{kid.finalPercentage}%</span>
-                  </h1>
-                  <div className="rounded-md p-1 bg-gray-100">
-                    <h1 className="text-sm text-black">{kid.duration}</h1>
-                  </div>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center justify-center">
+      {kidsData.map((kid, index) => (
+        <div key={index}>
+          <Card className="flex flex-col md:flex-row justify-between md:space-x-8 rounded-xl border-4 border-indigo-800 p-14 space-y-4 md:space-y-0 md:p-8 lg:px-12 shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+            <CardTitle>
+              <Avatar className="md:ml-0 w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36">
+                <AvatarImage src={kid.image} />
+              </Avatar>
+            </CardTitle>
+            <CardDescription className="md:flex md:flex-col md:items-center md:space-y-2">
+              <div className="text-center md:text-center space-y-4">
+                <div className="">
+                  <h1 className="text-lg font-semibold">{kid.name}</h1>
+                  <p className="text-xs text-gray-500">{kid.class}</p>
                 </div>
-                <Button className="bg-indigo-800 mt-4 md:mt-auto">Connect</Button>
-              </CardDescription>
-            </Card>
-          </div>
-        ))}
-      </div>
+                <h1 className="text-red-500">
+                  {kid.initialPercentage}% to{" "}
+                  <span className="text-green-400">{kid.finalPercentage}%</span>
+                </h1>
+                <div className="rounded-md p-1 bg-gray-100">
+                  <h1 className="text-sm text-black">{kid.duration}</h1>
+                </div>
+              </div>
+              <Button className="bg-indigo-800 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out">Connect</Button>
+            </CardDescription>
+          </Card>
+        </div>
+      ))}
     </div>
+  </div>
   );
 }

@@ -4,7 +4,7 @@ import KidsGallary from "./KidsGallary/KidsGallary";
 export default function SpeakToOurKids() {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full p-10">
+      <div className="w-full p-10 bg-[#FBF9F4]">
         <div className="flex flex-col max-md:flex-col max-md:items-center">
           <div className="text-center max-md:mb-10 max-md:w-full">
             <div className="mt-4 text-4xl font-bold">
