@@ -15,7 +15,7 @@ export default function Brands() {
           </div>
           <div className="w-full max-md:w-full">
             <div className="relative lg:min-h-[137px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
-              <div className="ml-5 md:ml-0 lg:mt-8">
+              <div className="md:ml-0 lg:mt-8">
                 <BrandCards />
               </div>
             </div>

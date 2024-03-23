@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 
 const BenefitItem = ({ imageUrl, title }) => (
-  <div className="flex flex-col items-center md:ml-10 justify-center text-center font-bold text-black">
+  <div className="flex flex-col items-center lg:ml-10 justify-center text-center font-bold text-black">
     <img
       src={imageUrl}
       alt={title}
@@ -87,7 +87,7 @@ export default function BookingPage() {
 
               <div>
                 <h2 className="text-center mt-16 text-xl font-bold">Attend Counselling Session to Get</h2>
-                <div className="mt-8 flex md:flex-row justify-between md:gap-5 md:pr-3 md:flex-wrap">
+                <div className="mt-8 flex -ml-14 md:flex-row justify-between md:gap-5 lg:pr-3 md:flex-wrap">
                 {benefits.map((benefit) => (
                   <BenefitItem
                     key={benefit.title}
