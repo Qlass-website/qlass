@@ -7,7 +7,7 @@ export default function BannerQr() {
         <div className="max-md: flex gap-5 items-center justify-between max-md:flex-col max-md:gap-0">
           <div className="flex w-[54%] lg:ml-20 flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 self-stretch text-white max-md:mt-10 max-md:max-w-full">
-              <span className="text-4xl font-bold">
+              <span className="text-2xl md:text-4xl font-bold">
                 Scan QR to experience our 24X7 AI tutor on your Whatsapp
               </span>
               <div className="">

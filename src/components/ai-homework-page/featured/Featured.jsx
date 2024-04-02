@@ -4,7 +4,7 @@ function ContentSection() {
   return (
     <div className="-ml-12 flex md:w-6/12 flex-col max-md:ml-0 max-md:w-full">
       <div className="my-auto flex flex-col items-center md:items-start self-stretch font-medium text-white max-md:mt-10 max-md:max-w-full">
-        <h1 className="md:text-6xl font-semibold capitalize tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-10">
+        <h1 className="text-3xl md:text-6xl font-semibold capitalize tracking-tighter max-sm:text-3xl max-md:max-w-full max-md:text-4xl max-md:leading-10">
           AI Powered Homework Assistance for All
         </h1>
         <p className="mt-7 text-sm md:text-xl leading-8 text-white text-opacity-60 max-md:max-w-full">

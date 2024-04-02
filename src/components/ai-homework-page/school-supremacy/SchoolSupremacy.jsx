@@ -13,7 +13,7 @@ export default function SchoolSupremacy() {
           </div>
         </div>
         <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
-          <div className="flex w-[44%] flex-col max-md:ml-0 max-md:w-full">
+          <div className="flex -mt-8 md:mt-0 w-[44%] flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 self-stretch text-white max-md:mt-10 max-md:max-w-full">
               <span className="text-2xl lg:text-3xl font-medium">Become the Best School Around With</span>
               <ul className="list-disc space-y-2 sm:w-[300px]  md:w-[300px] lg:w-auto text-gray-200 text-xs md:text-lg">
@@ -25,7 +25,7 @@ export default function SchoolSupremacy() {
             </div>
           </div>
           <div className="ml-5 flex w-[56%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="relative mt-12 flex min-h-[195px] md:min-h-[395px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative mt-12 flex min-h-[177px] md:min-h-[395px] grow flex-col items-center justify-center overflow-hidden px-16 py-12 shadow-sm max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src="/aitutorImage.png"
