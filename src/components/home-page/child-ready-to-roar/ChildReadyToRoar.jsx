@@ -6,7 +6,7 @@ export default function ChildReadyToRoar() {
       <div className="w-full">
         <div className="flex flex-col max-md:flex-col max-md:items-center">
           <div className="text-center max-md:mb-0 max-md:w-full">
-            <div className="mt-3 text-xl font-bold text-black md:text-4xl">
+            <div className="mt-3 text-2xl font-bold text-black md:text-4xl">
               The Qlass Advantage
             </div>
             {/* <div className="mt-3 text-md font-light text-black lg:text-3xl">

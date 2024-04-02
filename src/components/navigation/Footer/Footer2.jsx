@@ -4,49 +4,49 @@ import { Link } from 'react-router-dom'
 
 export default function Footer2() {
   return (
-    <section class="bg-[#1A1A1A]">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+    <section className="bg-[#1A1A1A]">
+    <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <div className='flex flex-col items-center justify-center'>
             <div><Logo/></div>
             <div className='text-center'>
-            <p class="mt-6 text-center leading-relaxed text-white sm:max-w-xs">
+            <p className="mt-6 text-center leading-relaxed text-white sm:max-w-xs">
               India’s first tech enabled offline coaching which guarantees result for student of class VIII to X
             </p>
             </div>
         </div>
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-            <div class="px-5 py-2">
-                <a href="/" class="text-base leading-6 text-white hover:text-white">
+        <nav className="flex flex-wrap justify-center -mx-5 -my-2">
+            <div className="px-5 py-2">
+                <a href="/" className="text-base leading-6 text-white hover:text-white">
                     Home
                 </a>
             </div>
-            <div class="px-5 py-2">
-                <a href="/ai-tutor" class="text-base leading-6 text-white hover:text-white">
+            <div className="px-5 py-2">
+                <a href="/ai-tutor" className="text-base leading-6 text-white hover:text-white">
                     AI Tutor
                 </a>
             </div>
-            <div class="px-5 py-2">
-                <a href="/our-work" class="text-base leading-6 text-white hover:text-white">
+            <div className="px-5 py-2">
+                <a href="/our-work" className="text-base leading-6 text-white hover:text-white">
                     Results
                 </a>
             </div>
-            <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-white hover:text-white">
+            <div className="px-5 py-2">
+                <a href="#" className="text-base leading-6 text-white hover:text-white">
                     Terms & Conditions
                 </a>
             </div>
-            <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-white hover:text-white">
+            <div className="px-5 py-2">
+                <a href="#" className="text-base leading-6 text-white hover:text-white">
                     Privacy Policy
                 </a>
             </div>
-            <div class="text-center px-5 py-4">
+            <div className="text-center px-5 py-4">
             {/* <p class="text-lg font-medium text-gray-500">Contact Us</p> */}
 
             <div className='flex flex-wrap items-center justify-center space-x-5'>
                 <div>
                 <a
-                    class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
+                    className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                     href="#"
                   >
                     <svg
@@ -87,7 +87,7 @@ export default function Footer2() {
                       />
                     </svg>
 
-                    <span class="flex-1 text-white">+91 9031003986</span>
+                    <span className="flex-1 text-white">+91 9031003986</span>
                   </a>
                 </div>
                   <div className='flex items-center mt-5 md:mt-0'>
@@ -111,7 +111,7 @@ export default function Footer2() {
                     />
                   </svg>
 
-                  <address class="flex-1 not-italic text-white">
+                  <address className="flex-1 not-italic text-white">
                     Khagual, Danapur, Patna, Bihar-801503
                   </address>
                   </div>
@@ -150,7 +150,7 @@ export default function Footer2() {
                 </svg>
             </a>
         </div> */}
-        <p class="text-base leading-6 text-center text-white">
+        <p className="text-base leading-6 text-center text-white">
             &copy; 2024 Qlass Made with ❤️ by{" "}
               <Link to="https://mattr.co.in">Mattr</Link>
         </p>

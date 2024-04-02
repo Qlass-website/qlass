@@ -12,7 +12,7 @@ export default function CTA() {
               <span className="text-2xl md:text-4xl font-bold">
                 AI Personal tutor/ Chatbot
               </span>
-              <p className="text-xl md:text-2xl font-thin text-white">
+              <p className=" font-thin text-white">
               Embrace innovation, transform education, and lead the way in nurturing the next generation of learners.
               </p>
              <div>

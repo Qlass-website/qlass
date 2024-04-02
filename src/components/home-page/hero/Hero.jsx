@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 px-10">
           <div className="flex w-[64%] flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 self-stretch text-center md:text-left md:text-5xl text-white max-md:mt-10 max-md:max-w-full">
-              <span className="font-medium text-xl md:text-3xl">
+              <span className="font-medium text-2xl md:text-3xl">
                 Unleash Your Child's Potential:
               </span>
               <br />

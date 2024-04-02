@@ -11,12 +11,12 @@ export default function LearningChoice() {
             <div className="text-4xl font-medium text-white">
               <Badge variant="primary">Our Programs</Badge>
             </div>
-            <div className="text-xl md:text-4xl font-medium text-white">
+            <div className="text-2xl md:text-4xl font-medium text-white">
               {" "}
               {/* Adjusted margin here */}
               Start Your Learning Journey Today!
             </div>
-            <div className="mt-3 font-light text-white">
+            <div className="mt-3 font-thin text-white">
               Qlass's intuitive shared inbox helps team members organize and
               prioritize.
             </div>

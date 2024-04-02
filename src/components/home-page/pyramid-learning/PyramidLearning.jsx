@@ -2,9 +2,7 @@ import React from "react";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
-  TableFooter,
   TableHead,
   TableHeader,
   TableRow,
@@ -50,7 +48,7 @@ export default function PyramidLearning() {
         <div className="max-md: flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex w-[44%] flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 text-center md:text-left self-stretch text-indigo-800 max-md:mt-10 max-md:max-w-full">
-              <span className="text-xl md:text-4xl font-bold">
+              <span className="text-2xl md:text-4xl font-bold">
                 What differentiates Qlass from others?
               </span>
               <p className="md:text-2xl font-thin text-gray-500">
