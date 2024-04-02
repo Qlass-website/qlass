@@ -16,8 +16,8 @@ export default function AboutCardReverse({ title, description, imgUrl }) {
           </div>
           <div className="ml-10 mb-6 md:mb-0 flex w-[46%] flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 self-stretch text-indigo-800 max-md:mt-10 max-md:max-w-full">
-              <span className="text-lg md:text-3xl font-bold">{title}</span>
-              <p className="text-md md:text-2xl font-thin text-gray-500">{description}</p>
+              <span className="text-2xl md:text-3xl font-bold">{title}</span>
+              <p className="text-lg md:text-2xl font-thin text-gray-500">{description}</p>
             </div>
           </div>
         </div>
