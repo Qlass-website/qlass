@@ -21,7 +21,7 @@ export default function Footer2() {
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="/ai-homework" class="text-base leading-6 text-white hover:text-white">
+                <a href="/ai-tutor" class="text-base leading-6 text-white hover:text-white">
                     AI Tutor
                 </a>
             </div>

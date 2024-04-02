@@ -7,7 +7,7 @@ function ContentSection() {
         <h1 className="md:text-6xl font-semibold capitalize tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-10">
           AI Powered Homework Assistance for All
         </h1>
-        <p className="mt-7 md:text-xl leading-8 text-white text-opacity-60 max-md:max-w-full">
+        <p className="mt-7 text-sm md:text-xl leading-8 text-white text-opacity-60 max-md:max-w-full">
           Embrace innovation, transform education, and lead <br /> the way in
           nurturing the next generation of learners.
         </p>
