@@ -11,7 +11,7 @@ export default function OurClients() {
               {" "}
               OUR CLIENTS
             </div> */}
-            <div className="mt-3 text-4xl font-medium text-black">
+            <div className="mt-3 text-2xl md:text-4xl font-medium text-black">
               What Our Students Say About Us?
             </div>
             {/* <div className="mt-3 font-light text-gray-500">

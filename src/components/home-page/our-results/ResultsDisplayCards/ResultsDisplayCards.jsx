@@ -4,7 +4,7 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 export default function ResultsDisplayCards() {
   return (
     <div className="flex items-center justify-between space-x-5 p-5">
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -29,7 +29,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -54,7 +54,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -79,7 +79,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -104,7 +104,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -129,7 +129,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -154,7 +154,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -179,7 +179,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">
@@ -204,7 +204,7 @@ export default function ResultsDisplayCards() {
           </div>
         </CardDescription>
       </Card>
-      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-8">
+      <Card className="flex items-center justify-between space-x-5 rounded-xl border-4 border-indigo-800 p-3 md:p-8">
         <CardTitle>
           <div className="flex items-center space-x-3">
             <Avatar className="w-20 h-20">

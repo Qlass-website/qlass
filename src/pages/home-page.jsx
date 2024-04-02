@@ -15,7 +15,7 @@ import React from "react";
 export default function HomePage() {
   return (
     <>
-        <Hero />
+      <Hero />
       <OurResults />
       <Brands />
       <ChildReadyToRoar />

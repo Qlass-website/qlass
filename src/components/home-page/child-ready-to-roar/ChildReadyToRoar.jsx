@@ -17,7 +17,7 @@ export default function ChildReadyToRoar() {
             </div> */}
           </div>
           <div className="w-full max-md:w-full px-10 md:px-32">
-            <div className="relative min-h-[240px] md:min-h-[440px] lg:min-h-[540px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
+            <div className="relative min-h-[220px] md:min-h-[440px] lg:min-h-[540px] flex-grow items-center justify-center overflow-hidden max-md:mt-10 max-md:max-w-full">
               <div className=" flex justify-center">
                 <img
                   loading="lazy"

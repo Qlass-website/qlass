@@ -9,10 +9,10 @@ export default function CTA() {
         <div className="max-md: flex gap-5 items-center justify-between max-md:flex-col max-md:gap-0">
           <div className="flex w-[54%] lg:ml-20 flex-col max-md:ml-0 max-md:w-full">
             <div className="z-10 my-auto space-y-4 self-stretch text-white max-md:mt-10 max-md:max-w-full">
-              <span className="text-4xl font-bold">
+              <span className="text-2xl md:text-4xl font-bold">
                 AI Personal tutor/ Chatbot
               </span>
-              <p className="text-2xl font-thin text-white">
+              <p className="text-xl md:text-2xl font-thin text-white">
               Embrace innovation, transform education, and lead the way in nurturing the next generation of learners.
               </p>
              <div>
@@ -21,7 +21,7 @@ export default function CTA() {
             </div>
           </div>
           <div className="flex w-[86%] flex-col max-md:ml-0 max-md:w-full">
-            <div className="relative flex min-h-[307px] md:min-h-[500px] grow flex-col items-center justify-center overflow-hidden md:px-16 md:py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
+            <div className="relative flex min-h-[207px] md:min-h-[500px] grow flex-col items-center justify-center overflow-hidden md:px-16 md:py-12 max-md:mt-10 max-md:max-w-full max-md:px-5">
               <img
                 loading="lazy"
                 src="/iphoneCTA.png"

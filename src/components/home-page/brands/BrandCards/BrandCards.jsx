@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BrandCards() {
   return (
-    <div className="grid grid-cols-4 items-center justify-center gap-4 lg:gap-8  sm:grid-cols-2 md:ml-32 lg:grid-cols-4">
+    <div className="grid grid-cols-4 items-center justify-center gap-3 lg:gap-8  sm:grid-cols-2 md:ml-32 lg:grid-cols-4">
       <div className="flex transform flex-col items-center space-y-4 py-6 text-center transition-transform hover:scale-105 w-[50px] md:w-[200px]">
         <img
           src="/Brand/brandnew1.png"

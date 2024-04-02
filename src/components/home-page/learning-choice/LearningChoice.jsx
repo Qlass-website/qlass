@@ -7,11 +7,11 @@ export default function LearningChoice() {
     <div className="flex items-center justify-center">
       <div className="w-full bg-indigo-800 px-10 py-6">
         <div className="flex flex-col max-md:flex-col max-md:items-center">
-          <div className="text-center max-md:mb-0 max-md:w-full xl:mt-0">
+          <div className="text-center space-y-2 md:space-y-0 max-md:mb-0 max-md:w-full xl:mt-0">
             <div className="text-4xl font-medium text-white">
               <Badge variant="primary">Our Programs</Badge>
             </div>
-            <div className=" text-4xl font-medium text-white">
+            <div className="text-xl md:text-4xl font-medium text-white">
               {" "}
               {/* Adjusted margin here */}
               Start Your Learning Journey Today!
