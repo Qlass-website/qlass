@@ -8,9 +8,7 @@ export default function Brands() {
         <div className="flex flex-col max-md:flex-col max-md:items-center px-10">
           <div className="mt-10 text-center max-md:mb-0 max-md:w-full">
             <div className="mt-4 text-2xl md:text-4xl font-medium text-[#50536A]">
-              {" "}
-              Trusted by <span className="text-[#22163F]">1000+</span> Students
-              all over India <br /> Recommended by Govt. of Bihar.
+              Trusted by <span className="text-[#22163F]">1000+</span> Students all over India <br/> Recommended by Govt. of Bihar.
             </div>
           </div>
           <div className="w-full max-md:w-full">
